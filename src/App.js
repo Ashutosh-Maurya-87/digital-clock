@@ -14,7 +14,7 @@ function App() {
   return (
     <>
     <h1>{timeNew}</h1>
-    <button onClick={getTime}>Get Time  t</button>
+    <button onClick={getTime}>Get Time  </button>
     </>
   );
 }

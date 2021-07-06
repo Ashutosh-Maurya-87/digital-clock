@@ -3,15 +3,17 @@ import './App.css';
 import { useState } from 'react';
 
 function App() {
-  const ttime= new Date().toLocaleTimeString();
-  const [time,setTime]=useState(ttime);
+  const time= new Date().toLocaleTimeString();
+  const [timeNew,setTime]=useState(' ');
   const getTime = () =>{
+    const timeNew= new Date().toLocaleTimeString();
+    setTime(timeNew);
     console.log(time);
     console.log('you click')
   }
   return (
     <>
-    <h1>{time}</h1>
+    <h1>{timeNew}</h1>
     <button onClick={getTime}>Get Time  t</button>
     </>
   );

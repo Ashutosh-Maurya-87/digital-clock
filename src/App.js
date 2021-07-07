@@ -15,8 +15,8 @@ function App() {
   }
   const getDate =()=>
   {
-         const date=new Date().toLocaleDateString();
-         setDateNew(date);
+         const dateNew=new Date().toLocaleDateString();
+         setDateNew(dateNew);
   }
     
   
@@ -25,6 +25,7 @@ function App() {
     <h1>{timeNew}</h1>
     <button onClick={getTime}>Get Time  </button>
     <h3>Click this button to find the local time</h3>
+    <h1>{dateNew}</h1>
     <button onClick={getDate}>Get Date</button>
     </>
   );

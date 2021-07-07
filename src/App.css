@@ -12,6 +12,9 @@ button{
 h3{
   text-align: center;
 }
+p{
+  margin-left: 45%;
+}
 
 .App-logo {
   height: 40vmin;

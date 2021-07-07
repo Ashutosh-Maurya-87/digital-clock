@@ -9,6 +9,9 @@ button{
   color: blueviolet;
   margin-left: 45%;
 }
+h3{
+  text-align: center;
+}
 
 .App-logo {
   height: 40vmin;

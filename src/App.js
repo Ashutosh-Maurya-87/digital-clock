@@ -4,10 +4,10 @@ import { useState } from 'react';
 
 function App() {
   const time= new Date().toLocaleTimeString();
-  const [timeNew,setTime]=useState(' ');
+  const [timeNew,setTimeNew]=useState(' ');
   const getTime = () =>{
     const timeNew= new Date().toLocaleTimeString();
-    setTime(timeNew);
+    setTimeNew(timeNew);
     console.log(time);
     console.log('you click')
   }

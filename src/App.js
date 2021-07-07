@@ -8,8 +8,8 @@ function App() {
   const getTime = () =>{
     const timeNew= new Date().toLocaleTimeString();
     setTimeNew(timeNew);
-    console.log(time);
-    console.log('you click')
+    //console.log(time);
+    //console.log('you click')
     setInterval(getTime,1000);
   }
   

@@ -10,7 +10,11 @@ function App() {
     setTimeNew(timeNew);
     console.log(time);
     console.log('you click')
+    setInterval(getTime,1000);
   }
+  
+    
+  
   return (
     <>
     <h1>{timeNew}</h1>

@@ -1,14 +1,12 @@
 .App {
   text-align: center;
 }
-h1{
-  text-align: center;
-}
 button{
   
   color: blueviolet;
   margin-left: 45%;
 }
+h1,
 h3{
   text-align: center;
 }
